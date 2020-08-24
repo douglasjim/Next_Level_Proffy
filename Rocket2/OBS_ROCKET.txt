@@ -1,0 +1,24 @@
+PILARES:
+
+FOCO
+PRATICA
+GRUPOS
+
+escrevendo isso no cmd irá parece a IDE que sera utilizada para programar
+code .
+
+quando instalamos alguma depencia usando o cmd quando colocamos o -D do lado estamos dizendo que é apenas uma depencia do ambiente de desenvolvimento e nao de producao
+por exemplo quando for subir para producao nao é necessario realizar o download da dependência que instalamos
+
+importar o = import { Link} from 'react-router-dom'
+
+trocar a tag a por Link e trocar o href pelo to entao ficaria assim:
+<Link to="/give-classes" className="give-classes">
+
+ctrl + . = control + ponto em cima da tag componente o visual irá importar o caminho do arquivo dessa tag 
+muito util o comando acima
+
+o title serve para inserir um valor que definimos para cada tela seria meio que uma variavel que recebe um valor , e a tag que foi inserida esse title, o arquivo onde esta se referenciando com a tag vai usar o title 
+podemos mudar o title para qualquer coisa porque isso seria meio que uma variaveil mas isso se chama propriedade
+
+
